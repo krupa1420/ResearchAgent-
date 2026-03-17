@@ -1,0 +1,15 @@
+
+{
+  "research_server": {
+    "command": "/opt/anaconda3/bin/python",
+    "args": [
+      "/Users/krupa/Documents/Python Projects/ResearchAgent-/server.py"
+    ],
+    "transport": "stdio"
+  },
+  "firecrawl_server": {
+    "command": "npx",
+    "args": ["-y", "firecrawl-mcp"],
+    "transport": "stdio"
+  }
+}
